@@ -8,7 +8,7 @@ class Farm  {
      for (int i=0; i < aBunchOfAnimals.length; i++)      
      {          
        System.out.println( aBunchOfAnimals[i].getType() + " goes " + aBunchOfAnimals[i].getSound());       
-       System.out.println("The cow is known as "+ (((NamedCow)aBunchOfAnimals[0]).getName()));
+       System.out.println("The cow is known as "+ ((NamedCow)aBunchOfAnimals[0]).getName() );
      }    
     } 
 } 
